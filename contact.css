@@ -1,0 +1,246 @@
+.taskbar{
+	margin-left:600px;
+	margin-top:-50px;
+	position:relative;
+	
+}
+.bb{
+	color: white;
+	position: relative;
+	font-family:BIZ UDMincho;
+	font-weight:lighter;
+	font-size:35px;
+	margin-left:100px;
+}
+.t-h{
+	padding:10px 75px 10px 10px;
+	color:black;
+	font-family:arial;
+	text-decoration: none;
+	
+	color: white;
+}
+.t-h:hover{
+	color: purple;
+}
+.t-i{
+	padding:3px 5px;
+	margin-left:620px;
+	margin-top:-25px;
+	margin-right:100px;
+	font-size:25px;
+	text-decoration:none;
+}
+.t-i:hover{
+	color: purple;
+}
+.t-ii{
+	font-size:25px;
+	margin-left:655px;
+	margin-right:75px;
+	margin-top:-30px;
+	text-decoration:none;
+}
+.t-ii:hover{
+	/*color: #FFD700;*/
+	color: purple;
+}
+
+body{
+	background-color:black;
+}
+.cont{
+	color:white;
+	margin-left:150px;
+	margin-top:150px;
+	font-family:Ebrima;
+	font-size:70px;
+	font-weight:lighter;
+	animation-name:contact;
+	animation-duration:2s;
+	animation-delay: -1s;
+	animation-timing-function:ease-in-out;
+	position:relative;
+
+}
+@keyframes contact{
+	from{top:100px;}
+	to{top:0px;}
+}
+.c-1{
+	color:white;
+	margin-left:160px;
+	margin-top:40px;
+	font-size:20px;
+	font-family:;
+	font-weight:lighter;
+	animation-name:contact;
+	animation-duration:2.5s;
+	animation-delay: -1s;
+	animation-timing-function:ease-in-out;
+	position:relative;
+}
+.c-e{
+	color:white;
+	margin-left:160px;
+	margin-top:50px;
+	font-size:17px;
+	font-family:arial;
+	font-weight:lighter;
+	animation-name:email;
+	animation-duration:2s;
+	animation-delay: -1s;
+	animation-timing-function:ease-in-out;
+	position:relative;
+
+}
+@keyframes email{
+	from{right:100px;}
+	to{right:0px;}
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+.cond{
+	margin-right:245px;
+	margin-left:750px;
+	margin-top:-260px;
+	color:white;
+}
+.c-f{
+	animation-name:contact;
+	animation-duration:2.5s;
+	animation-delay: -1s;
+	animation-timing-function:ease-in-out;
+	position:relative;
+
+
+}
+.c-l{
+	
+	position:relative;
+	left:265px;
+	top:-62px;
+	animation-name:contact;
+	animation-duration:2s;
+	animation-delay: -1s;
+	animation-timing-function:ease-in;
+	position:relative;
+
+}
+.c-em{
+	animation-name:contact;
+	animation-duration:2.5s;
+	animation-delay: -1s;
+	animation-timing-function:ease-in-out;
+	position:relative;
+
+}
+.c-p{
+	position:relative;
+	left:265px;
+	top:-62px;
+	animation-name:contact;
+	animation-duration:2.5s;
+	animation-delay: -1s;
+	animation-timing-function:ease-in-out;
+	position:relative;
+
+}
+.c-m{
+	animation-name:contact;
+	animation-duration:2.5s;
+	animation-delay: -1s;
+	animation-timing-function:ease-in-out;
+	position:relative;
+
+
+}
+.c-s{
+	position:relative;
+	left:250px;
+	top:15px;
+	animation-name:contact;
+	animation-duration:2.5s;
+	animation-delay: -1s;
+	animation-timing-function:ease-in-out;
+	position:relative;
+
+	
+}
+button{
+	color:white;
+	background-color:transparent;
+	border:1px solid white;
+	width:180px;
+	height:50px;
+	font-family:arial;
+	font-size:15px;
+}
+button:hover{
+	color:black;
+	cursor:pointer;
+	background-color:white;
+}
+.mess{
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid white;
+	width:430px;
+	height:120px;
+	background-color:transparent;
+	color:white;
+
+
+}
+::placeholder{
+
+	text-align:center;
+}
+input{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	width:200px;
+	height:40px;
+	border-bottom:2px solid white;
+	background-color:transparent;
+	color:white;
+	padding-inline:20px;
+}
+
+-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance:none;
+}
+	
+
+
+.cp-c{
+	position:absolute;
+	margin-top:140px;
+	color:rgb(197,197,197);
+	
+	}
+.cp-cn{
+	position:absolute;
+	margin-top:147px;
+	margin-left:20px;
+	color: rgb(197, 197,197);
+	font-size:12px;
+	font-weight:lighter;
+	font-family:Consolas;
+
+}
+.cp-p{
+	position: absolute; 
+	text-decoration:underline;
+	color:rgb(197,197,197);
+	margin-top:145px;
+	margin-left:253px;
+	font-size:12px;
+	font-weight:lighter;
+	font-family:Consolas;
+}

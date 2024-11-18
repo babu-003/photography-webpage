@@ -1,0 +1,110 @@
+.taskbar{
+	margin-left:600px;
+	margin-top:-50px;
+	position:relative;
+	
+}
+.bb{
+	color: white;
+	position: relative;
+	font-family:BIZ UDMincho;
+	font-weight:lighter;
+	font-size:35px;
+	margin-left:100px;
+}
+.t-h{
+	padding:10px 75px 10px 10px;
+	color:black;
+	font-family:arial;
+	text-decoration: none;
+	
+	color: white;
+}
+.t-h:hover{
+	color: purple;
+}
+.t-i{
+	padding:3px 5px;
+	margin-left:620px;
+	margin-top:-25px;
+	margin-right:100px;
+	font-size:25px;
+	text-decoration:none;
+}
+.t-i:hover{
+	color: purple;
+}
+.t-ii{
+	font-size:25px;
+	margin-left:655px;
+	margin-right:75px;
+	margin-top:-30px;
+	text-decoration:none;
+}
+.t-ii:hover{
+	/*color: #FFD700;*/
+	color: purple;
+}
+
+.bg-img{
+	width:1350px;
+	height:630px;
+	margin-left:-10px;
+	object-fit:fill;
+	margin-top:-70px;
+
+}
+.c-b{
+	margin-left:200px;
+	margin-top:-440px;
+	position:relative;
+	font-size:100px;
+	color:white;
+	font-family:Edwardian Script ITC;
+	animation-name:babu;
+	animation-duration:2.5s;
+	animation-delay: -1s;
+	animation-timing-function: ease-in-out;
+}
+@keyframes babu{
+	from{top:100px;}
+	to{top:0px;}
+}
+.c-p{
+	margin-left:140px;
+	margin-top:-100px;
+	position: relative;
+	font-size:100px;
+	color: purple;
+	font-family: French script MT;/*Edwardian Script ITC*/
+	animation-name: babu;
+	animation-duration:3s;
+	animation-delay:-1s;
+	animation-timing-function:ease-in-out;
+}
+.cp-c{
+	position:absolute;
+	margin-top:140px;
+	color:rgb(197,197,197);
+	
+	}
+.cp-cn{
+	position:absolute;
+	margin-top:147px;
+	margin-left:20px;
+	color: rgb(197, 197,197);
+	font-size:12px;
+	font-weight:lighter;
+	font-family:Consolas;
+
+}
+.cp-p{
+	position: absolute; 
+	text-decoration:underline;
+	color:rgb(197,197,197);
+	margin-top:145px;
+	margin-left:253px;
+	font-size:12px;
+	font-weight:lighter;
+	font-family:Consolas;
+}
