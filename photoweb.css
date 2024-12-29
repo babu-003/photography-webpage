@@ -1,6 +1,6 @@
 .taskbar{
-	margin-left:600px;
-	margin-top:-50px;
+	margin-left:400px;
+	margin-top:-70px;
 	position:relative;
 	
 }
@@ -25,7 +25,7 @@
 }
 .t-i{
 	padding:3px 5px;
-	margin-left:620px;
+	margin-left:750px;
 	margin-top:-25px;
 	margin-right:100px;
 	font-size:25px;
@@ -36,9 +36,9 @@
 }
 .t-ii{
 	font-size:25px;
-	margin-left:655px;
+	margin-left:790px;
 	margin-right:75px;
-	margin-top:-30px;
+	margin-top:-38px;
 	text-decoration:none;
 }
 .t-ii:hover{
@@ -47,8 +47,8 @@
 }
 
 .bg-img{
-	width:1350px;
-	height:630px;
+	width:101%;
+	height:100%;
 	margin-left:-10px;
 	object-fit:fill;
 	margin-top:-70px;
@@ -58,7 +58,7 @@
 	margin-left:200px;
 	margin-top:-440px;
 	position:relative;
-	font-size:100px;
+	font-size:70px;
 	color:white;
 	font-family:Edwardian Script ITC;
 	animation-name:babu;
@@ -71,10 +71,10 @@
 	to{top:0px;}
 }
 .c-p{
-	margin-left:140px;
-	margin-top:-100px;
+	margin-left:180px;
+	margin-top:-70px;
 	position: relative;
-	font-size:100px;
+	font-size:75px;
 	color: purple;
 	font-family: French script MT;/*Edwardian Script ITC*/
 	animation-name: babu;
